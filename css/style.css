@@ -307,7 +307,6 @@ p {
 .projects-more {
     text-decoration: none;
     position: relative;
-    margin-right: 45px;
 }
 
 .projects-more-txt {
@@ -318,17 +317,15 @@ p {
     font-size: 30px;
     line-height: 36.57px;
     color: #533738;
-}
-
-.projects-more::after {
-    content: url('../img/arrow_right_no_circle.png');
-    position: absolute;
-    top: 8px;
-    left: 210px;
+    margin-right: 10px;
 }
 
 .projects-more:hover .projects-more-txt {
     color: #a88a8d;
+}
+
+.projects-more:hover .projects-more-arrow {
+    fill: #a88a8d;
 }
 
 .team {
